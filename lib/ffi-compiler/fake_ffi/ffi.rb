@@ -119,6 +119,10 @@ module FFI
       FFI.exporter.attach(args[0], args[0], find_type(args[2]), args[1].map { |t| find_type(t) })
     end
 
+    def enum(*args)
+
+    end
+
     def ffi_lib(*args)
 
     end
